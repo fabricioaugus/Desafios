@@ -1,4 +1,4 @@
-package BEE;
+package bee;
 
 public class BEE1000 {
 
