@@ -1,0 +1,15 @@
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\bin\Debug\net6.0\PrimeiroAppConsole.exe
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\bin\Debug\net6.0\PrimeiroAppConsole.deps.json
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\bin\Debug\net6.0\PrimeiroAppConsole.runtimeconfig.json
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\bin\Debug\net6.0\PrimeiroAppConsole.dll
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\bin\Debug\net6.0\PrimeiroAppConsole.pdb
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.csproj.AssemblyReference.cache
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.AssemblyInfoInputs.cache
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.AssemblyInfo.cs
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.dll
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\refint\PrimeiroAppConsole.dll
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.pdb
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\PrimeiroAppConsole.genruntimeconfig.cache
+C:\Users\fabricio.pereira\Documents\GitHub\Desafios\PrimeiroAppConsole\PrimeiroAppConsole\obj\Debug\net6.0\ref\PrimeiroAppConsole.dll
