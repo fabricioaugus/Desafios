@@ -86,12 +86,12 @@ namespace PrimeiroAppConsole
        // menu de opcões 
         private static void menu()
         {
-            Console.WriteLine("escolha uma das opceos abaixo: ");
-            Console.WriteLine("1 - Ver se o numero é Par ou Impar ");
-            Console.WriteLine("2 - Verificar se você é maior de idade ");
-            Console.WriteLine("3 - Tabuada de um numero N");
+            Console.WriteLine("\t\t\t ---- escolha uma das opceos abaixo: ---- ");
+            Console.WriteLine("\t\t\t 1 - Ver se o numero é Par ou Impar ");
+            Console.WriteLine("\t\t\t 2 - Verificar se você é maior de idade ");
+            Console.WriteLine("\t\t\t 3 - Tabuada de um numero N");
 
-            Console.WriteLine("0 - Sair do programa");
+            Console.WriteLine("\t\t\t 0 - Sair do programa");
 
         }
     }
