@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabri\\Desktop\\git\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj": {}
+    "C:\\Users\\fabricio.pereira\\Documents\\GitHub\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabri\\Desktop\\git\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj": {
+    "C:\\Users\\fabricio.pereira\\Documents\\GitHub\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabri\\Desktop\\git\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj",
+        "projectUniqueName": "C:\\Users\\fabricio.pereira\\Documents\\GitHub\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj",
         "projectName": "PrimeiroAppConsole",
-        "projectPath": "C:\\Users\\fabri\\Desktop\\git\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj",
-        "packagesPath": "C:\\Users\\fabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabri\\Desktop\\git\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\obj\\",
+        "projectPath": "C:\\Users\\fabricio.pereira\\Documents\\GitHub\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\PrimeiroAppConsole.csproj",
+        "packagesPath": "C:\\Users\\fabricio.pereira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabricio.pereira\\Documents\\GitHub\\Desafios\\PrimeiroAppConsole\\PrimeiroAppConsole\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fabricio.pereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
