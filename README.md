@@ -7,4 +7,4 @@
 #### Exercicio - Leia 1 valor inteiro "N" (entre 2 e 1.000), e a seguir mostre a tabeuada de "N". Exemplo: 1 X N = N  | 2 x N = 2N ….
 
 
-<a href="https://ibb.co/S3rhkbP"><img src="https://i.ibb.co/P6Q72KN/tela-1.png" alt="tela-1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/nPfb4z5/Capturar.png" alt="Capturar" border="0"></a>
