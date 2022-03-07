@@ -85,7 +85,7 @@ namespace PrimeiroAppConsole
 
         }
        // menu de opcões 
-        private static void menu()
+        private static void Menu()
         {
             Console.WriteLine("\t\t\t ---- escolha uma das opções abaixo: ---- ");
             Console.WriteLine("\t\t\t 1 - Ver se o número é Par ou Impar ");
