@@ -8,44 +8,42 @@ namespace PrimeiroAppConsole
            
             while (true)
             {
-                menu();
+                Menu();
                 int opcao = Convert.ToByte(Console.ReadLine());
                 switch (opcao)
                 {
                     case 1:
-                        verificaParOuImpar();
-                        break;
+                       Console.WriteLine("Digite um número, para ver se ele é par ou impar: ");
+                       int NumeroParOuImpar = Convert.ToInt32(Console.ReadLine());
+                       VerificaParOuImpar(NumeroParOuImpar);
+                       break;
                     case 2:
-                        verificaIdade();
+                        Console.WriteLine("Digite a sua idade, você pode ou não ter permissão:");
+                        int IdadeParaSerVerificada = Convert.ToInt32(Console.ReadLine());
+                        VerificaIdade(IdadeParaSerVerificada);
                         break;
                     case 3:
-                        calculaTabuadaN();
+                       Console.WriteLine("digite um numero para retornar a tabuada Dele : ");
+                       int NumeroLida = Convert.ToInt32(Console.ReadLine());
+                       CalculaTabuadaN(NumeroLida);
                         break;
                 } if (opcao == 0) {
                     break;
                 }
             }
             Console.WriteLine("FECHOU O PROGRAMA !!!");
-            Console.Clear();
 
         }
         /* Método - Exercicio 1
       * Desenvolver um algoritmo console que solicite entrada de 
       * um número e ver se é par or impar
        */
-        private static void VerificaParOuImpar()
+        private static void VerificaParOuImpar(int nParOuImpar)
         {
             {
+                if (nParOuImpar % 2 == 0) Console.WriteLine(" O número {0} é Par", nParOuImpar);
 
-                int nPar;
-                Console.WriteLine("Digite um numero para ver se ele é par ou impar: ");
-                nPar = Convert.ToInt32(Console.ReadLine());
-
-                if (nPar % 2 == 0) Console.WriteLine(" O numero é Par: {0} ", nPar);
-
-                else Console.WriteLine(" O numero é impar: {0}", nPar);
-
-
+                else Console.WriteLine(" O número {0} é Impar", nParOuImpar);
             }
         }
         /* Método - Exercicio 2
@@ -54,17 +52,13 @@ namespace PrimeiroAppConsole
         *na cor verde “Permissão concedida”.
        */
 
-        private static void VerificaIdade()
+        private static void VerificaIdade(int idade)
         {
-            int idade;
             string corVermelha = "Sem Permissão";
             string corVerde = "Permissão Concedida";
 
-            Console.WriteLine("Digite a sua idade, você pode ou não ter permissão:");
-
-            idade = Convert.ToInt32(Console.ReadLine());
-
             if (idade >= 18) Console.WriteLine(corVerde);
+            
             else Console.WriteLine(corVermelha);
 
         }
@@ -72,11 +66,8 @@ namespace PrimeiroAppConsole
              Leia 1 valor inteiro "N" (entre 2 e 1.000), e a seguir mostre a tabuada de "N".
          * Exemplo: 1 X N = N | 2 x N = 2N ….
         */
-        private static void CalculaTabuadaN()
+        private static void CalculaTabuadaN(int numeroN)
         {
-
-            Console.WriteLine("digite um numero para retornar a tabuada Dele : ");
-            int numeroN = Convert.ToInt32(Console.ReadLine());
             for (int i = 1; i <= 10; i++)
             {
                 int tabuada = i * numeroN;
