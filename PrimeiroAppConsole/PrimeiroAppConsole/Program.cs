@@ -5,6 +5,7 @@ namespace PrimeiroAppConsole
     {
         static void Main(string[] args)
         {
+           
             while (true)
             {
                 menu();
@@ -25,6 +26,7 @@ namespace PrimeiroAppConsole
                 }
             }
             Console.WriteLine("FECHOU O PROGRAMA !!!");
+            Console.Clear();
 
         }
         /* Método - Exercicio 1
@@ -75,7 +77,6 @@ namespace PrimeiroAppConsole
 
             Console.WriteLine("digite um numero para retornar a tabuada Dele : ");
             int numeroN = Convert.ToInt32(Console.ReadLine());
-
             for (int i = 1; i <= 10; i++)
             {
                 int tabuada = i * numeroN;
@@ -92,6 +93,8 @@ namespace PrimeiroAppConsole
             Console.WriteLine("\t\t\t 3 - Tabuada de um numero N");
 
             Console.WriteLine("\t\t\t 0 - Sair do programa");
+
+
 
         }
     }
