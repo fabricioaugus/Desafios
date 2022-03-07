@@ -33,7 +33,7 @@ namespace PrimeiroAppConsole
       * Desenvolver um algoritmo console que solicite entrada de 
       * um número e ver se é par or impar
        */
-        private static void verificaParOuImpar()
+        private static void VerificaParOuImpar()
         {
             {
 
@@ -54,7 +54,7 @@ namespace PrimeiroAppConsole
         *na cor verde “Permissão concedida”.
        */
 
-        private static void verificaIdade()
+        private static void VerificaIdade()
         {
             int idade;
             string corVermelha = "Sem Permissão";
@@ -72,7 +72,7 @@ namespace PrimeiroAppConsole
              Leia 1 valor inteiro "N" (entre 2 e 1.000), e a seguir mostre a tabuada de "N".
          * Exemplo: 1 X N = N | 2 x N = 2N ….
         */
-        private static void calculaTabuadaN()
+        private static void CalculaTabuadaN()
         {
 
             Console.WriteLine("digite um numero para retornar a tabuada Dele : ");
