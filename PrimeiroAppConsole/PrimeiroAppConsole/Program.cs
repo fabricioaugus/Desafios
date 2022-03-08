@@ -14,19 +14,24 @@ namespace PrimeiroAppConsole
                 {
                     case 1:
                        Console.WriteLine("Digite um número, para ver se ele é par ou impar: ");
-                       int NumeroParOuImpar = Convert.ToInt32(Console.ReadLine());
+                       int NumeroParOuImpar = int.Parse(Console.ReadLine());
                        VerificaParOuImpar(NumeroParOuImpar);
                        break;
                     case 2:
                         Console.WriteLine("Digite a sua idade, você pode ou não ter permissão:");
-                        int IdadeParaSerVerificada = Convert.ToInt32(Console.ReadLine());
+                        int IdadeParaSerVerificada = int.Parse(Console.ReadLine());
                         VerificaIdade(IdadeParaSerVerificada);
                         break;
                     case 3:
                        Console.WriteLine("digite um numero para retornar a tabuada Dele : ");
-                       int NumeroLida = Convert.ToInt32(Console.ReadLine());
+                       int NumeroLida = int.Parse(Console.ReadLine());
                        CalculaTabuadaN(NumeroLida);
                         break;
+
+                    case 4:
+                         Console.WriteLine("Leitura de Arquivos C#, Digite o caminho: ");
+                           LerArquivos(1);
+                         break;
                 } if (opcao == 0) {
                     break;
                 }
@@ -68,22 +73,48 @@ namespace PrimeiroAppConsole
         */
         private static void CalculaTabuadaN(int numeroN)
         {
+        Console.WriteLine("\t\t\t\t === A Tabuada do "+numeroN+" é === \t\t\t\t\n");
             for (int i = 1; i <= 10; i++)
             {
                 int tabuada = i * numeroN;
                 Console.WriteLine("{0} X {1} = {2}", i, numeroN, tabuada);
             }
+        }
 
+        private static void LerArquivos(int numeroArquivo)
+        {
+            //  caminho do arquivo para ser lido aki passando
+            //  apenas o numero ai se tiver mais de um arquivo com exemplo report1, report2, report3,
+            // esta lendo os arquivos report1, report2, report3 ... reportN 
+            // Caminho que você quer que leia o arquivo
+            string arquivoComCaminho = @"C:\Users\fabri\Desktop\git\report" + numeroArquivo + ".txt";
+            Console.WriteLine("==== Lendo arquivo ====\n" + arquivoComCaminho + "\n=====");
+            if(File.Exists(arquivoComCaminho))
+            {
+                using (StreamReader arquivo = File.OpenText(arquivoComCaminho))
+                {
+                    string linha;
+                    while((linha = arquivo.ReadLine()) != null)
+                    {
+                    Console.WriteLine(linha);
+                    }
+                }
+            }
+            string arquivoComCaminho2 = @"C:\Users\fabri\Desktop\git\report" + (numeroArquivo + 1) + ".txt";
+            if (File.Exists(arquivoComCaminho2))
+            {
+                LerArquivos(numeroArquivo + 1);
+            }
         }
        // menu de opcões 
         private static void Menu()
         {
-            Console.WriteLine("\t\t\t ---- escolha uma das opções abaixo: ---- ");
+            Console.WriteLine("\t\t\t ======== escolha uma das opções abaixo: ========");
             Console.WriteLine("\t\t\t 1 - Ver se o número é Par ou Impar ");
             Console.WriteLine("\t\t\t 2 - Verificar se você é maior de idade ");
-            Console.WriteLine("\t\t\t 3 - Tabuada de um numero N");
-
-            Console.WriteLine("\t\t\t 0 - Sair do programa");
+            Console.WriteLine("\t\t\t 3 - Tabuada de um numero N ");
+            Console.WriteLine("\t\t\t 4 - Leitura de arquivo C# ");
+            Console.WriteLine("\t\t\t 0 - Sair do programa ");
 
 
 
