@@ -87,7 +87,7 @@ namespace PrimeiroAppConsole
             //  apenas o numero ai se tiver mais de um arquivo com exemplo report1, report2, report3,
             // esta lendo os arquivos report1, report2, report3 ... reportN 
             // Caminho que você quer que leia o arquivo
-            string arquivoComCaminho = @"C:\Users\fabri\Desktop\git\report" + numeroArquivo + ".txt";
+            string arquivoComCaminho = @"C:\Users\" + numeroArquivo + ".txt";
             Console.WriteLine("==== Lendo arquivo ====\n" + arquivoComCaminho + "\n=====");
             if(File.Exists(arquivoComCaminho))
             {
@@ -100,7 +100,7 @@ namespace PrimeiroAppConsole
                     }
                 }
             }
-            string arquivoComCaminho2 = @"C:\Users\fabri\Desktop\git\report" + (numeroArquivo + 1) + ".txt";
+            string arquivoComCaminho2 = @"C:\Users\" + (numeroArquivo + 1) + ".txt";
             if (File.Exists(arquivoComCaminho2))
             {
                 LerArquivos(numeroArquivo + 1);
